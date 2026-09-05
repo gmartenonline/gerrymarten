@@ -11,3 +11,18 @@ footer {
 main {
   background-color: white;
 }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+main p {
+  line-height: 1.65;
+}
+
+main h2[id] {
+  border-top: 1px solid #cccccc;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  scroll-margin-top: 1rem;
+}
