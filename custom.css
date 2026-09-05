@@ -1,22 +1,10 @@
+/* Body and typography */
 body {
+  background-color: #6b6b6b;
   background-image: url("gm-media/World_map_with_points.webp");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
-    background-color: #6b6b6b;
-}
-
-header,
-footer {
-  background-color: #c90000;
-  color: white;
-}
-
-main {
-  background-color: white;
-}
-
-body {
   font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
@@ -28,69 +16,14 @@ h5,
 h6 {
   font-family: Georgia, "Times New Roman", serif;
 }
-main {padding-top:2rem;}
 
-main p {
-  line-height: 2;
-  margin-bottom: 1.5rem;
-}
-
-main h2[id] {
-  border-top: 1px solid #cccccc;
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  scroll-margin-top: 1rem;
-}
-
-main a[href="#top"] {
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
+/* Header */
+header {
   background-color: #c90000;
   color: white;
-  text-decoration: none;
-  border-radius: 0.25rem;
 }
 
-main a[href="#top"]:hover,
-main a[href="#top"]:focus {
-  background-color: #990000;
-  color: white;
-}
-
-.date {
-  color: #b00000;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.site-footer {
-  padding: 2rem;
-}
-
-.footer-image {
-  display: block;
-  width: 180px;
-  max-width: 100%;
-  height: auto;
-}
-
-.footer-contact {
-  font-size: 1rem;
-}
-
-.footer-contact p:last-child {
-  margin-bottom: 0;
-}
-
-.footer-contact a {
-  color: white;
-}
-
-.book-cover {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-}
-
+/* Main navigation */
 .site-nav {
   padding: 0;
   background-color: #131313;
@@ -129,6 +62,7 @@ main a[href="#top"]:focus {
   }
 }
 
+/* Mobile navigation */
 @media (max-width: 991.98px) {
   .site-nav .nav-item + .nav-item {
     border-top: 1px solid #555555;
@@ -140,17 +74,78 @@ main a[href="#top"]:focus {
   }
 }
 
-@media (max-width: 991.98px) {
-  .site-nav .navbar-nav {
-    text-align: center;
-  }
+/* Main content */
+main {
+  padding-top: 2rem;
+  background-color: white;
+}
 
-  .site-nav .nav-item + .nav-item {
-    border-top: 1px solid #555555;
-    border-left: 0;
-  }
+main p {
+  margin-bottom: 1.5rem;
+  line-height: 2;
+}
 
-  .site-nav .nav-link {
-    padding: 0.85rem 1rem;
-  }
+main h2[id] {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #cccccc;
+  scroll-margin-top: 1rem;
+}
+
+/* Back-to-top links */
+main a[href="#top"] {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  background-color: #c90000;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+main a[href="#top"]:hover,
+main a[href="#top"]:focus {
+  color: white;
+  background-color: #990000;
+}
+
+/* Dates */
+.date {
+  color: #b00000;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Book cover */
+.book-cover {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #c90000;
+  color: white;
+}
+
+.site-footer {
+  padding: 2rem;
+}
+
+.footer-image {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-contact {
+  font-size: 1rem;
+}
+
+.footer-contact p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-contact a {
+  color: white;
 }
