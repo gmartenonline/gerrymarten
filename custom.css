@@ -92,17 +92,12 @@ main a[href="#top"]:focus {
 }
 
 .site-nav {
-  margin-bottom: 2rem;
   padding: 0;
   background-color: #131313;
 }
 
-.site-nav .navbar-collapse {
-  justify-content: center;
-}
-
 .site-nav .navbar-nav {
-  justify-content: center;
+  width: 100%;
 }
 
 .site-nav .nav-item + .nav-item {
@@ -110,9 +105,12 @@ main a[href="#top"]:focus {
 }
 
 .site-nav .nav-link {
-  padding: 1rem 1.75rem;
+  display: block;
+  padding: 1rem 1.5rem;
   color: white;
   font-weight: 600;
+  letter-spacing: 0.035em;
+  text-align: center;
 }
 
 .site-nav .nav-link:hover,
@@ -123,6 +121,23 @@ main a[href="#top"]:focus {
 
 .site-nav .navbar-toggler {
   margin: 0.75rem 1rem;
+}
+
+@media (min-width: 992px) {
+  .site-nav .nav-item {
+    flex: 1 1 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .site-nav .nav-item + .nav-item {
+    border-top: 1px solid #555555;
+    border-left: 0;
+  }
+
+  .site-nav .nav-link {
+    padding: 0.9rem 1rem;
+  }
 }
 
 @media (max-width: 991.98px) {
