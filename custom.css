@@ -82,3 +82,9 @@ main a[href="#top"]:focus {
 .footer-contact a {
   color: white;
 }
+
+.book-cover {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
