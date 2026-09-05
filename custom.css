@@ -28,6 +28,8 @@ h5,
 h6 {
   font-family: Georgia, "Times New Roman", serif;
 }
+main {padding-top:2rem;}
+
 main p {
   line-height: 2;
   margin-bottom: 1.5rem;
@@ -90,7 +92,6 @@ main a[href="#top"]:focus {
 }
 
 .site-nav {
-  margin-bottom: 2rem;
   padding: 0.75rem 1.5rem;
   background-color: white;
 }
