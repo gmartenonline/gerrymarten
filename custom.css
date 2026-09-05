@@ -49,6 +49,7 @@ main a[href="#top"]:focus {
 
 .date {
   color: #b00000;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .site-footer {
