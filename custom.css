@@ -17,8 +17,8 @@ body {
 }
 
 main p {
-  line-height: 1.8;
-  margin-bottom: 1.75rem;
+  line-height: 2;
+  margin-bottom: 1.5rem;
 }
 
 main h2[id] {
