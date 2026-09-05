@@ -17,9 +17,17 @@ main {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", serif;
+}
 main p {
   line-height: 2;
   margin-bottom: 1.5rem;
