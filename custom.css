@@ -1,5 +1,8 @@
 body {
-  background-color: #eeeeee;
+  background-image: url("gm-media/World_map_with_points.webp");
+  background-repeat: no-repeat;
+  background-position: top center;
+    background-color: #eeeeee;
 }
 
 header,
