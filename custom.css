@@ -52,6 +52,13 @@ header {
   background-color: #b00000;
 }
 
+.site-nav .nav-link.active,
+.site-nav .nav-link.active:hover,
+.site-nav .nav-link.active:focus {
+  color: white;
+  background-color: #666666;
+}
+
 .site-nav .navbar-toggler {
   margin: 0.75rem 1rem;
 }
