@@ -3,8 +3,9 @@ body {
   background-color: #6b6b6b;
   background-image: url("gm-media/World_map_with_points.webp");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center 66px;
   background-size: 100% auto;
+  background-attachment: fixed;
   font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
