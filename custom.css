@@ -1,0 +1,13 @@
+body {
+  background-color: #eeeeee;
+}
+
+header,
+footer {
+  background-color: #b50000;
+  color: white;
+}
+
+main .container {
+  background-color: white;
+}
