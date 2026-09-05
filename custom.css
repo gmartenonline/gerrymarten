@@ -46,3 +46,26 @@ main a[href="#top"]:focus {
 .date {
   color: #b00000;
 }
+
+.site-footer {
+  padding: 2rem;
+}
+
+.footer-image {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-contact {
+  font-size: 1rem;
+}
+
+.footer-contact p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-contact a {
+  color: white;
+}
