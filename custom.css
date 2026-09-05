@@ -42,3 +42,7 @@ main a[href="#top"]:focus {
   background-color: #990000;
   color: white;
 }
+
+.date {
+  color: #b00000;
+}
