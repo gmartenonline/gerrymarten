@@ -27,3 +27,18 @@ main h2[id] {
   padding-top: 1.5rem;
   scroll-margin-top: 1rem;
 }
+
+main a[href="#top"] {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: #c90000;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+main a[href="#top"]:hover,
+main a[href="#top"]:focus {
+  background-color: #990000;
+  color: white;
+}
