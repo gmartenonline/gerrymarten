@@ -4,10 +4,10 @@ body {
 
 header,
 footer {
-  background-color: #b50000;
+  background-color: #c90000;
   color: white;
 }
 
-main .container {
+main {
   background-color: white;
 }
