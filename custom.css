@@ -88,3 +88,19 @@ main a[href="#top"]:focus {
   max-width: 300px;
   height: auto;
 }
+
+.site-nav {
+  margin-bottom: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+}
+
+.site-nav .nav-link {
+  color: #222222;
+  font-weight: 600;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: #70c39c;
+}
