@@ -234,3 +234,14 @@ main figure img {
   margin-top: 3rem;
   padding-top: 2rem;
 }
+
+.chapter-number,
+.chapter-name {
+  display: block;
+}
+
+.chapter-number {
+  margin-bottom: 0.25rem;
+  font-size: 0.55em;
+  letter-spacing: 0.04em;
+}
