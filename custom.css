@@ -274,3 +274,9 @@ main ul:not(.chapter-nav),
 main ol:not(.chapter-nav) {
   margin-bottom: 1.5rem;
 }
+
+main .chapter-nav + h2[id] {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
