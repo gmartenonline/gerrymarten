@@ -181,8 +181,11 @@ footer {
 }
 
 /* Chapter navigation */
+
 main .chapter-nav {
-  margin-bottom: 0;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #cccccc;
 }
 
 main .chapter-nav li {
