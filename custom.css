@@ -215,3 +215,13 @@ main .chapter-nav li:last-child {
 main figure img {
   border: 1px solid #e61d1d;
 }
+
+/* Book publication details */
+.book-details p {
+  margin-bottom: 0.35rem;
+  line-height: 1.5;
+}
+
+.book-details p:last-child {
+  margin-bottom: 0;
+}
