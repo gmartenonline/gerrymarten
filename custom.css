@@ -210,3 +210,8 @@ main .chapter-nav li:last-child {
 .book-index-link a:focus {
   text-decoration: underline;
 }
+
+/* Chapter figures */
+main figure img {
+  border: 1px solid #cccccc;
+}
