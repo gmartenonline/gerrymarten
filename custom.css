@@ -1,27 +1,13 @@
-/* Site variables */
-
-:root {
-  --site-red: #c90000;
-  --site-red-dark: #990000;
-  --site-red-muted: #b00000;
-  --site-gray: #6b6b6b;
-  --site-border: #cccccc;
-  --site-nav: #131313;
-  --site-nav-border: #555555;
-  --site-serif: Georgia, "Times New Roman", serif;
-  --site-sans: "Trebuchet MS", Arial, sans-serif;
-}
-
 /* Base typography and page background */
 
 body {
-  background-color: var(--site-gray);
+  background-color: #6b6b6b;
   background-image: url("gm-media/World_map_with_points.webp");
   background-repeat: no-repeat;
   background-position: center 66px;
   background-size: 100% auto;
   background-attachment: fixed;
-  font-family: var(--site-sans);
+  font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
 h1,
@@ -32,21 +18,21 @@ h5,
 h6,
 .book-title,
 .book-subtitle {
-  font-family: var(--site-serif);
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 /* Site header */
 
 header {
   color: #ffffff;
-  background-color: var(--site-red);
+  background-color: #c90000;
 }
 
 /* Main navigation */
 
 .site-nav {
   padding: 0;
-  background-color: var(--site-nav);
+  background-color: #131313;
 }
 
 .site-nav .navbar-nav {
@@ -54,7 +40,7 @@ header {
 }
 
 .site-nav .nav-item + .nav-item {
-  border-left: 1px solid var(--site-nav-border);
+  border-left: 1px solid #555555;
 }
 
 .site-nav .nav-link {
@@ -69,7 +55,7 @@ header {
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus {
   color: #ffffff;
-  background-color: var(--site-red-muted);
+  background-color: #b00000;
 }
 
 .site-nav .nav-link.active,
@@ -91,7 +77,7 @@ header {
 
 @media (max-width: 991.98px) {
   .site-nav .nav-item + .nav-item {
-    border-top: 1px solid var(--site-nav-border);
+    border-top: 1px solid #555555;
     border-left: 0;
   }
 
@@ -117,7 +103,7 @@ main h2[id] {
   margin-top: 3rem;
   margin-bottom: 1rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--site-border);
+  border-top: 1px solid #cccccc;
   scroll-margin-top: 1rem;
 }
 
@@ -213,7 +199,7 @@ main li > ol:not(.chapter-nav) {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   padding-top: 2rem;
-  border-top: 4px solid var(--site-border);
+  border-top: 4px solid #cccccc;
 }
 
 .chapter-number,
@@ -231,7 +217,7 @@ main li > ol:not(.chapter-nav) {
 main .chapter-nav {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 2px solid var(--site-border);
+  border-bottom: 2px solid #cccccc;
 }
 
 main .chapter-nav li {
@@ -251,7 +237,7 @@ main figure img {
 /* Utility components */
 
 .date {
-  color: var(--site-red-muted);
+  color: #b00000;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -259,7 +245,7 @@ main a[href="#top"] {
   display: inline-block;
   padding: 0.4rem 0.8rem;
   color: #ffffff;
-  background-color: var(--site-red);
+  background-color: #c90000;
   border-radius: 0.25rem;
   text-decoration: none;
 }
@@ -267,14 +253,14 @@ main a[href="#top"] {
 main a[href="#top"]:hover,
 main a[href="#top"]:focus {
   color: #ffffff;
-  background-color: var(--site-red-dark);
+  background-color: #990000;
 }
 
 /* Site footer */
 
 footer {
   color: #ffffff;
-  background-color: var(--site-red);
+  background-color: #c90000;
 }
 
 .site-footer {
