@@ -289,3 +289,7 @@ footer {
 .entry-title {
   font-size: 1.1rem;
 }
+
+main p:has(+ h2[id]) {
+  margin-bottom: 0;
+}
