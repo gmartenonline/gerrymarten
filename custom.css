@@ -193,3 +193,20 @@ main .chapter-nav li {
 main .chapter-nav li:last-child {
   margin-bottom: 0;
 }
+
+/* Book index link */
+.book-index-link {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.book-index-link a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.book-index-link a:hover,
+.book-index-link a:focus {
+  text-decoration: underline;
+}
