@@ -55,14 +55,14 @@ header {
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus {
   color: #ffffff;
-  background-color: #b00000;
+  background-color: #8F1D1D;
 }
 
 .site-nav .nav-link.active,
 .site-nav .nav-link.active:hover,
 .site-nav .nav-link.active:focus {
   color: #ffffff;
-  background-color: #666666;
+  background-color: #4A4A4A;
 }
 
 .site-nav .navbar-toggler {
