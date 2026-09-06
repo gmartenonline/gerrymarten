@@ -249,3 +249,23 @@ main figure img {
   font-size: 0.55em;
   letter-spacing: 0.04em;
 }
+
+/* Content lists */
+
+main ul:not(.chapter-nav) li,
+main ol:not(.chapter-nav) li {
+  margin-bottom: 0.5rem;
+  line-height: 2;
+}
+
+main ul:not(.chapter-nav) li:last-child,
+main ol:not(.chapter-nav) li:last-child {
+  margin-bottom: 0;
+}
+
+/* Subsection headings */
+
+main h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
