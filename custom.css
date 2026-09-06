@@ -280,3 +280,11 @@ main .chapter-nav + h2[id] {
   margin-top: 0;
   padding-top: 0;
 }
+
+/* Nested lists */
+
+main li > ul,
+main li > ol {
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
