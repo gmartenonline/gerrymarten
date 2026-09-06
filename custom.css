@@ -283,8 +283,8 @@ main .chapter-nav + h2[id] {
 
 /* Nested lists */
 
-main li > ul,
-main li > ol {
+main li > ul:not(.chapter-nav),
+main li > ol:not(.chapter-nav) {
   margin-top: 0.75rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0;
 }
