@@ -225,3 +225,9 @@ main figure img {
 .book-details p:last-child {
   margin-bottom: 0;
 }
+
+.chapter-title {
+  border-top: 4px solid #cccccc;
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
