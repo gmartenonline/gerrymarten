@@ -269,3 +269,8 @@ main h3 {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
 }
+
+main ul:not(.chapter-nav),
+main ol:not(.chapter-nav) {
+  margin-bottom: 1.5rem;
+}
