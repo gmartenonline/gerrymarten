@@ -294,3 +294,14 @@ footer {
 .entry-title {
   font-size: 1.1rem;
 }
+
+main blockquote {
+  margin: 2rem 0;
+  padding: 1.5rem 2rem;
+  border-left: 4px solid #e61d1d;
+  background-color: #f5f5f5;
+}
+
+main blockquote p:last-child {
+  margin-bottom: 0;
+}
