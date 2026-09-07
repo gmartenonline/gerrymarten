@@ -240,6 +240,10 @@ main figure > .text-box-content {
   padding: 1rem;
 }
 
+main figure > .text-box-content > :last-child {
+  margin-bottom: 0;
+}
+
 /* Utility components */
 
 .date {
