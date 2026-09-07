@@ -321,3 +321,7 @@ main figure img {
     width: 100%;
   }
 }
+
+main .figure-caption {
+  font-size: 0.95rem;
+}
