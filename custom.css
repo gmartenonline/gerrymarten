@@ -126,11 +126,6 @@ main ol {
   margin-bottom: 0;
 }
 
-main ul:not(.chapter-nav),
-main ol:not(.chapter-nav) {
-  margin-bottom: 1.5rem;
-}
-
 main ul:not(.chapter-nav) li,
 main ol:not(.chapter-nav) li {
   margin-bottom: 0.5rem;
