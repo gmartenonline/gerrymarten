@@ -230,7 +230,7 @@ main .chapter-nav li:last-child {
 }
 
 /* Chapter figures. */
-main figure img {
+main figure img, .book-box {
   border: 1px solid #e61d1d;
 }
 
