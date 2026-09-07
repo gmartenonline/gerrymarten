@@ -305,3 +305,19 @@ main blockquote {
 main blockquote p:last-child {
   margin-bottom: 0;
 }
+
+/* Chapter figures. */
+
+main figure img {
+  display: block;
+  width: 80%;
+  max-width: 1200px;
+  height: auto;
+  border: 1px solid #e61d1d;
+}
+
+@media (max-width: 767px) {
+  main figure img {
+    width: 100%;
+  }
+}
