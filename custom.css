@@ -121,9 +121,9 @@ main .chapter-nav + h2[id] {
 
 /* Content lists */
 
-main ul,
-main ol {
-  margin-bottom: 0;
+main ul:not(.chapter-nav),
+main ol:not(.chapter-nav) {
+  margin-bottom: 1rem;
 }
 
 main ul:not(.chapter-nav) li,
