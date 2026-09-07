@@ -230,13 +230,14 @@ main .chapter-nav li:last-child {
 }
 
 /* Chapter figures. */
-main figure img {
+
+main figure img,
+main figure > .text-box-content {
   border: 1px solid #e61d1d;
 }
 
-.book-box {
-border: 1px solid #e61d1d;
-padding: 1rem;
+main figure > .text-box-content {
+  padding: 1rem;
 }
 
 /* Utility components */
