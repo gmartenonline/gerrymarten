@@ -396,4 +396,6 @@ background-color: #0d6efd;
 
 .accent-text {
 color: var(--accent-color);
+margin-bottom: 0;
+font-size: 1.1rem;
 }
