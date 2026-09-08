@@ -256,7 +256,6 @@ main figure > .text-box-content > :last-child {
 .date {
 color: var(--accent-color);
 font-family: "Courier New", Courier, monospace;
-font-weight: 700;
 }
 
 main a[href="#top"] {
