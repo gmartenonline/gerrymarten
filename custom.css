@@ -221,25 +221,37 @@ main li > ol:not(.chapter-nav) {
 }
 
 /* Chapter quick links. */
+/* Chapter quick links. */
+
 main .chapter-nav {
+position: relative;
 margin-bottom: 2rem;
-padding-bottom: 2rem;
+paddingpadding: 0 0 2rem 1.5rem;
 border-bottom: 2px solid #cccccc;
+}
+
+main .chapter-nav::before {
+content: "";
+position: absolute;
+top: 0;
+bottom: 2rem;
+left: 0;
+width: 4px;
+background-color: var(--accent-color, #e61d1d);
 }
 
 main .chapter-nav ul {
 margin: 0;
-padding-left: 3rem;
-border-left: 4px solid var(--accent-color);
+padding-left: 1.5rem;
 }
 
 main .chapter-nav li {
-  margin-bottom: 0.35rem;
-  line-height: 1.5;
+margin-bottom: 0.35rem;
+line-height: 1.5;
 }
 
 main .chapter-nav li:last-child {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
 /* Chapter figures. */
