@@ -223,9 +223,14 @@ main li > ol:not(.chapter-nav) {
 /* Chapter quick links. */
 main .chapter-nav {
 margin-bottom: 2rem;
-padding: 0 0 2rem 1.5rem;
-border-left: 4px solid var(--accent-color);
+padding-bottom: 2rem;
 border-bottom: 2px solid #cccccc;
+}
+
+main .chapter-nav ul {
+margin: 0;
+padding-left: 3rem;
+border-left: 4px solid var(--accent-color);
 }
 
 main .chapter-nav li {
