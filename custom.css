@@ -254,8 +254,8 @@ main figure > .text-box-content > :last-child {
 /* Utility components */
 
 .date {
-  color: #b00000;
-  font-family: "Courier New", Courier, monospace;
+color: var(--accent-color);
+font-family: "Courier New", Courier, monospace;
 }
 
 main a[href="#top"] {
