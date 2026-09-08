@@ -224,7 +224,6 @@ main li > ol:not(.chapter-nav) {
 main .chapter-nav {
 margin-bottom: 2rem;
 padding: 0 0 2rem 1.5rem;
-border-left: 4px solid var(--accent-color);
 border-bottom: 2px solid #cccccc;
 }
 
