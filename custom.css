@@ -1,5 +1,6 @@
 :root {
---accent-color: #902D41;
+--accent-color: #e61d1d;
+--accent-color-2: #cccccc;
 }
 
 /* Base typography and page background */
@@ -108,19 +109,28 @@ main li {
   line-height: 2;
 }
 
+:root {
+--accent-color: #e61d1d;
+--accent-color-2: #cccccc;
+}
+
+main h2[id],
+main .section-divider {
+margin-top: 3rem;
+margin-bottom: 1rem;
+padding-top: 1.5rem;
+border-top: 1px solid var(--accent-color-2);
+}
+
 main h2[id] {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #cccccc;
-  scroll-margin-top: 1rem;
+scroll-margin-top: 1rem;
 }
 
 main h3 {
   margin-top: 3rem;
   margin-bottom: 1rem;
   padding-top: 1.5rem;
-  border-top: 1px solid #cccccc;
+border-top: 1px solid var(--accent-color-2);
   scroll-margin-top: 1rem;
 }
 
