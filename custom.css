@@ -1,10 +1,10 @@
 /* Base typography and page background */
 
 body {
-  background-color: #6b6b6b;
+  background-color: #1f1f1f;
   background-image: url("gm-media/sitebk.jpg");
   background-repeat: no-repeat;
-  background-position: center 66px;
+  background-position: center center;
   background-size: 100% auto;
   background-attachment: fixed;
   font-family: "Trebuchet MS", Arial, sans-serif;
