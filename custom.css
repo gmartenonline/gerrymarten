@@ -1,5 +1,5 @@
 :root {
---accent-color: #e61d1d;
+--accent-color: #902D41;
 }
 
 /* Base typography and page background */
@@ -260,12 +260,12 @@ main figure > .text-box-content > :last-child {
 }
 
 main a[href="#top"] {
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
-  color: #ffffff;
-  background-color: #902D41;
-  border-radius: 0.25rem;
-  text-decoration: none;
+display: inline-block;
+padding: 0.4rem 0.8rem;
+color: #ffffff;
+background-color: var(--accent-color);
+border-radius: 0.25rem;
+text-decoration: none;
 }
 
 main a[href="#top"]:hover,
