@@ -404,3 +404,7 @@ white-space: nowrap;
 color: #ffffff;
 background-color: #0d6efd;
 }
+
+.book-section {
+--bs-border-color: var(--accent-color);
+}
