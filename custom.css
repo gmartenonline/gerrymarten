@@ -265,6 +265,7 @@ color: #ffffff;
 background-color: var(--accent-color);
 border-radius: 0.25rem;
 text-decoration: none;
+  margin-top: 1rem;
 }
 
 main a[href="#top"]:hover,
