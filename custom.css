@@ -232,11 +232,6 @@ main li > ol:not(.chapter-nav) {
   display: block;
 }
 
-.chapter-name {
-font-weight: 700;
-}
-
-
 .chapter-number {
   margin-bottom: 0.25rem;
   font-size: 0.55em;
