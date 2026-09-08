@@ -92,7 +92,7 @@ header {
 
 /* Main content and headings */
 
-main {
+main.container {
   padding: 6rem !important;
   background-color: #FAFAFA;
 }
