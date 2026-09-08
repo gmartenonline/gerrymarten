@@ -50,8 +50,9 @@ header {
   display: block;
   padding: 1rem 1.5rem;
   color: #ffffff;
+  font-size: 1.1rem;
   font-weight: 600;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.05em;
   text-align: center;
 }
 
@@ -91,8 +92,8 @@ header {
 
 /* Main content and headings */
 
-.site-wrapper main {
-  padding: 6rem;
+main {
+  padding: 6rem !important;
   background-color: #FAFAFA;
 }
 
