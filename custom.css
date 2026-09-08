@@ -99,9 +99,17 @@ header {
 
 /* Main content and headings */
 
+header.container {
+  padding: 3rem !important;
+}
+
 main.container {
   padding: 3rem !important;
   background-color: #FAFAFA;
+}
+
+footer.container {
+  padding: 3rem !important;
 }
 
 main p,
