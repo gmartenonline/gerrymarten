@@ -351,15 +351,23 @@ margin: 2rem 0;
 
 .quick-links-label {
 font-weight: 700;
+line-height: 1;
+margin: 0;
 }
 
 .quick-links ul {
 display: flex;
+align-items: center;
 flex-wrap: wrap;
 gap: 0.5rem;
 margin: 0;
 padding: 0;
 list-style: none;
+}
+
+.quick-links li {
+margin: 0;
+padding: 0;
 }
 
 .quick-links a {
