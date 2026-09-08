@@ -91,7 +91,7 @@ header {
 
 /* Main content and headings */
 
-main {
+.site-wrapper main {
   padding: 6rem;
   background-color: #FAFAFA;
 }
