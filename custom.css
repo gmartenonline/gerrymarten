@@ -109,9 +109,8 @@ main li {
   line-height: 2;
 }
 
-:root {
---accent-color: #e61d1d;
---accent-color-2: #cccccc;
+main .intro {
+font-size: 1.2rem;
 }
 
 main h2[id],
