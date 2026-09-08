@@ -113,8 +113,11 @@ main h2[id] {
 }
 
 main h3 {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #cccccc;
+  scroll-margin-top: 1rem;
 }
 
 /* Prevent a doubled divider after chapter navigation. */
