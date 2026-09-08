@@ -207,12 +207,12 @@ main li > ol:not(.chapter-nav) {
 .book-index-link {
   margin-top: 1rem;
   margin-bottom: 0;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 .book-index-link a {
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .book-index-link a:hover,
