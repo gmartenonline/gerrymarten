@@ -40,29 +40,22 @@ font-family: Georgia, "Times New Roman", serif;
 }
 /* Site header */
 header {
---header-image-width: 80%;
---header-image-right: -10%;
---header-image-top: 0%;
---header-image-color: #30505c;
 position: relative;
 overflow: hidden;
 color: #ffffff;
 background-color: var(--header-color);
 }
-header.container {
-padding: 3rem !important;
-}
 header::after {
 content: "";
 position: absolute;
-top: var(--header-image-top);
-right: var(--header-image-right);
-width: var(--header-image-width);
+right: -10;
+bottom: 0;
+width: 75%;
 aspect-ratio: 1;
-background-color: var(--header-image-color);
--webkit-mask: url("gm-media/globe.svg") center / contain no-repeat;
-mask: url("gm-media/globe.svg") center / contain no-repeat;
-transform: translateY(-50%);
+background-color: #30505c;
+-webkit-mask: url("gm-media/globe-tight.svg") center / contain no-repeat;
+mask: url("gm-media/globe-tight.svg") center / contain no-repeat;
+transform: translateY(-10%);
 pointer-events: none;
 }
 header > * {
