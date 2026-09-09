@@ -437,10 +437,14 @@ cabo en algunos lugares más que en otros?</li>
 <script src="../../bootstrap.bundle.min.js"></script>
 <script>
 window.addEventListener("load", function () {
-  if (window.location.hash) {
-    const target = document.querySelector(window.location.hash);
-    if (target) target.scrollIntoView();
-  }
+  window.setTimeout(function () {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    const target = document.getElementById(id);
+
+    if (target) {
+      target.scrollIntoView({ block: "start" });
+    }
+  }, 0);
 });
 </script>
 </body>
