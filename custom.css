@@ -53,8 +53,8 @@ right: -10%;
 width: 75%;
 aspect-ratio: 1;
 background-color: #30505c;
--webkit-mask: url("gm-media/globe-tight.svg") center / contain no-repeat;
-mask: url("gm-media/globe-tight.svg") center / contain no-repeat;
+-webkit-mask: url("gm-media/globe.svg") center / contain no-repeat;
+mask: url("gm-media/globe.svg") center / contain no-repeat;
 pointer-events: none;
 }
 header > * {
