@@ -91,7 +91,7 @@ background-color: #000000;
 .site-nav .nav-link.active:hover,
 .site-nav .nav-link.active:focus {
 color: #ffffff;
-background-color: #3c3c3c;
+background-color: #2f2f2f;
 }
 .site-nav .navbar-toggler {
 margin: 0.75rem 1rem;
