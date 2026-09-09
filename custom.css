@@ -39,7 +39,7 @@ h6,
 font-family: Georgia, "Times New Roman", serif;
 }
 /* Site header */
-header {
+header.container {
 padding: 3rem !important;
 position: relative;
 overflow: hidden;
