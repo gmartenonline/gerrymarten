@@ -40,9 +40,9 @@ font-family: Georgia, "Times New Roman", serif;
 }
 /* Site header */
 header {
---header-image-width: 98%;
+--header-image-width: 80%;
 --header-image-right: -10%;
---header-image-top: 50%;
+--header-image-top: 98%;
 --header-image-color: #30505c;
 position: relative;
 overflow: hidden;
