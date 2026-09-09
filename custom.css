@@ -1,6 +1,7 @@
 :root {
 --accent-color: #e61d1d;
 --accent-color-2: #c0c0c0;
+--header-color: #16404d;
 }
 /* Base page styles */
 body {
@@ -163,6 +164,7 @@ margin-bottom: 0.25rem;
 font-size: 2.25rem;
 font-weight: 700;
 line-height: 1.2;
+var(--header-color)
 }
 .book-subtitle {
 margin-bottom: 1.5rem;
