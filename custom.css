@@ -177,6 +177,15 @@ main li > ol:not(.chapter-nav) {
   margin-bottom: 0;
 }
 
+main a {
+color: #0a58ca;
+}
+
+main a:hover,
+main a:focus {
+color: #084298;
+}
+
 /* Book and chapter components */
 
 .book-cover {
