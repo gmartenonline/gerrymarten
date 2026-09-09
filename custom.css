@@ -36,11 +36,34 @@ font-family: Georgia, "Times New Roman", serif;
 }
 /* Site header */
 header {
+--header-image-width: 60%;
+--header-image-right: 0;
+--header-image-top: 50%;
+--header-image-color: #30505c;
+position: relative;
+overflow: hidden;
 color: #ffffff;
-background-color: #16404d;
+background-color: var(--header-color);
 }
 header.container {
 padding: 3rem !important;
+}
+header::after {
+content: "";
+position: absolute;
+top: var(--header-image-top);
+right: var(--header-image-right);
+width: var(--header-image-width);
+aspect-ratio: 1;
+background-color: var(--header-image-color);
+-webkit-mask: url("gm-media/globe.svg") center / contain no-repeat;
+mask: url("gm-media/globe.svg") center / contain no-repeat;
+transform: translateY(-50%);
+pointer-events: none;
+}
+header > * {
+position: relative;
+z-index: 1;
 }
 /* Main navigation */
 .site-nav {
