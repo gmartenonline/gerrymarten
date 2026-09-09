@@ -312,7 +312,7 @@ footer {
 }
 
 .site-footer {
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 
 .footer-image {
@@ -323,15 +323,11 @@ footer {
 }
 
 .footer-contact {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .footer-contact p:last-child {
   margin-bottom: 0;
-}
-
-.footer-contact a {
-  color: #ffffff;
 }
 
 .entry-title {
