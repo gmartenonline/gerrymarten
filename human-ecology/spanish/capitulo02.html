@@ -421,5 +421,13 @@ indeseables.</li>
 </footer>
 </div>
 <script src="../../bootstrap.bundle.min.js"></script>
+<script>
+window.addEventListener("load", function () {
+  if (window.location.hash) {
+    const target = document.querySelector(window.location.hash);
+    if (target) target.scrollIntoView();
+  }
+});
+</script>
 </body>
 </html>

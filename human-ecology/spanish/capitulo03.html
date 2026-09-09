@@ -511,5 +511,13 @@ proporcionar algún otro tipo de asistencia a las naciones que no cuentan con su
 </footer>
 </div>
 <script src="../../bootstrap.bundle.min.js"></script>
+<script>
+window.addEventListener("load", function () {
+  if (window.location.hash) {
+    const target = document.querySelector(window.location.hash);
+    if (target) target.scrollIntoView();
+  }
+});
+</script>
 </body>
 </html>
