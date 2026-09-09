@@ -9,13 +9,17 @@ padding-top: 2rem;
 padding-bottom: 2rem;
 color: #222222;
 background-color: #9fb2a0;
+font-family: "Trebuchet MS", Arial, sans-serif;
+}
+@media (min-width: 768px) {
+body {
 background-image: url("gm-media/bk-02.webp");
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
 background-attachment: fixed;
 background-blend-mode: multiply;
-font-family: "Trebuchet MS", Arial, sans-serif;
+}
 }
 img {
 height: auto;
