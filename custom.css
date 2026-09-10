@@ -350,6 +350,7 @@ background-color: #990000;
 footer {
 color: #333333;
 background-color: #f1edee;
+border-bottom: 2px solid #cccccc;
 }
 .site-footer {
 padding: 1rem 2rem;
