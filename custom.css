@@ -371,3 +371,10 @@ font-size: 1.1rem;
 .footer-contact p:last-child {
 margin-bottom: 0;
 }
+.publication-summary {
+    margin: 1rem 0 1rem 1.5rem;
+    padding-left: 1rem;
+    border-left: 4px solid #ccc;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
