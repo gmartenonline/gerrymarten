@@ -399,3 +399,16 @@ line-height: 1.6;
 .publication-summary p {
 margin-bottom: .5rem;
 }
+
+.publication-summary ul,
+.publication-summary ol {
+margin-bottom: .5rem;
+}
+
+.publication-summary li {
+margin-bottom: .25rem;
+}
+
+.publication-summary li:last-child {
+margin-bottom: 0;
+}
