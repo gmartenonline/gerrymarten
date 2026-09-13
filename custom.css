@@ -328,6 +328,12 @@ white-space: nowrap;
 color: #ffffff;
 background-color: #0d6efd;
 }
+
+.quick-links a.active {
+background-color: #f2f2f2;
+border-color: #666;
+color: #333;
+}
 /* Utility components */
 .date {
 color: var(--accent-color);
