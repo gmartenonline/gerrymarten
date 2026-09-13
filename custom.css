@@ -3,6 +3,7 @@
 --accent-color-2: #c0c0c0;
 --header-color: #16404d;
 --muted-background-color: #f5f5f5;
+--link-color:#0a58ca;
 }
 
 /* Base page styles */
@@ -149,12 +150,12 @@ font-size: 1.1rem;
 
 /* Main links */
 main a {
-color: #0a58ca;
+color: var(--link-color);
 }
 
 main a:hover,
 main a:focus {
-color: #084298;
+color: var(--link-color);
 }
 
 /* Section headings and dividers */
@@ -430,6 +431,10 @@ background-color: #f1edee;
 border-bottom: 12px solid #cccccc;
 }
 
+footer a {
+color: var(--link-color);
+}
+
 .site-footer {
 padding: 1rem 2rem;
 }
@@ -444,6 +449,7 @@ height: auto;
 .footer-contact {
 font-size: 1.1rem;
 }
+
 
 .footer-contact p:last-child {
 margin-bottom: 0;
