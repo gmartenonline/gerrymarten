@@ -618,5 +618,9 @@ line-height: 1.75;
 }
 
 .chapter h4::before {
-  content: none;
+  content: "";
+  display: block;
+  width: 10%;
+  border-top: 4px dotted var(--accent-color-2);
+  margin-bottom: 1.5rem;
 }
