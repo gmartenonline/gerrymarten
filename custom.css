@@ -610,3 +610,13 @@ line-height: 1.75;
 .book-meta li {
   margin-bottom: 0.25rem;
 }
+
+.chapter h4 {
+  margin-top: 3rem;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.chapter h4::before {
+  content: none;
+}
