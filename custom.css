@@ -564,6 +564,7 @@ margin-bottom: 0.25rem;
 line-height: 1.75;
 }
 
-.publication-summary li:last-child {
-margin-bottom: 0;
+.publication-summary li:last-child,
+.publication-summary p:last-child {
+  margin-bottom: 0;
 }
