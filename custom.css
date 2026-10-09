@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap");
+
 :root {
 --accent-color: #562c2c;
 --top-brd: #c0c0c0;
@@ -14,7 +16,7 @@ padding-top: 2rem;
 padding-bottom: 2rem;
 color: #222222;
 background-color: #9fb2a0;
-font-family: "Trebuchet MS", Arial, sans-serif;
+font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
