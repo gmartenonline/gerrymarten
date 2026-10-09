@@ -229,6 +229,22 @@ font-family: "Courier New", Courier, monospace;
 font-size: 1.2rem;
 }
 
+main a[href="#top"] {
+display: inline-block;
+margin-top: 1rem;
+padding: 0.4rem 0.8rem;
+color: #ffffff;
+background-color: var(--accent-color);
+border-radius: 0.25rem;
+text-decoration: none;
+}
+
+main a[href="#top"]:hover,
+main a[href="#top"]:focus {
+color: #ffffff;
+background-color: #990000;
+}
+
 /* OTHER */
 
 .book-title {
