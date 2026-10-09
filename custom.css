@@ -190,10 +190,6 @@ padding: 3rem !important;
 background-color: #fafafa;
 }
 
-main .intro {
-font-size: 1.1rem;
-}
-
 /* Main links */
 main a {
 color: var(--link-color);
@@ -202,6 +198,35 @@ color: var(--link-color);
 main a:hover,
 main a:focus {
 color: var(--link-color);
+}
+
+/* SPECIAL CLASSES */
+
+main .intro {
+font-size: 1.1rem;
+}
+
+.top-brd {
+margin-top: 3rem;
+margin-bottom: 1rem;
+padding-top: 1.5rem;
+border-top: 1px solid var(--testing);
+}
+
+.top-brd-thick {
+margin-top: 3rem;
+margin-bottom: 1.5rem;
+padding-top: 2rem;
+border-top: 4px solid var(--testing);
+}
+
+.date {
+color: var(--accent-color);
+font-family: "Courier New", Courier, monospace;
+}
+
+.entry-title {
+font-size: 1.2rem;
 }
 
 /* OTHER */
@@ -219,20 +244,6 @@ font-weight: 700;
 .book-subtitle {
 font-size: 1.75rem;
 font-weight: 400;
-}
-
-.top-brd {
-margin-top: 3rem;
-margin-bottom: 1rem;
-padding-top: 1.5rem;
-border-top: 1px solid var(--testing);
-}
-
-.top-brd-thick {
-margin-top: 3rem;
-margin-bottom: 1.5rem;
-padding-top: 2rem;
-border-top: 4px solid var(--testing);
 }
 
 /* Publications */
