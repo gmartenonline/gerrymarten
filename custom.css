@@ -106,6 +106,26 @@ position: relative;
 z-index: 1;
 }
 
+.site-title {
+margin: 0 0 0.25rem;
+color: #ffffff;
+font-size: 2.75rem;
+font-weight: 600;
+line-height: 1.1;
+letter-spacing: 0.01em;
+text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.site-subtitle {
+margin: 0;
+color: rgba(255, 255, 255, 0.9);
+font-size: 1.15rem;
+font-weight: 500;
+line-height: 1.4;
+letter-spacing: 0.04em;
+text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
 /* Main navigation */
 .site-nav {
 padding: 0;
@@ -185,26 +205,6 @@ color: var(--link-color);
 }
 
 /* OTHER */
-.site-title {
-margin: 0 0 0.25rem;
-color: #ffffff;
-font-family: Georgia, "Times New Roman", serif;
-font-size: 2.75rem;
-font-weight: 600;
-line-height: 1.1;
-letter-spacing: 0.01em;
-text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.site-subtitle {
-margin: 0;
-color: rgba(255, 255, 255, 0.9);
-font-size: 1.15rem;
-font-weight: 500;
-line-height: 1.4;
-letter-spacing: 0.04em;
-text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-}
 
 .book-title {
 margin-bottom: 1.5rem;
