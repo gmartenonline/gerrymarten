@@ -44,8 +44,10 @@ box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
 }
 
 /* Typography */
-p {
+main p,
+main li {
 margin-bottom: 1rem;
+line-height: 2;
 }
 
 h1,
@@ -160,6 +162,26 @@ border-left: 0;
 .site-nav .nav-link {
 padding: 0.9rem 1rem;
 }
+}
+
+/* Main content */
+main.container {
+padding: 3rem !important;
+background-color: #fafafa;
+}
+
+main .intro {
+font-size: 1.1rem;
+}
+
+/* Main links */
+main a {
+color: var(--link-color);
+}
+
+main a:hover,
+main a:focus {
+color: var(--link-color);
 }
 
 /* OTHER */
