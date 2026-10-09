@@ -324,6 +324,83 @@ border-top: 4px dotted var(--accent-color-2);
 margin-bottom: 1.5rem;
 }
 
+/* Content lists */
+main ul,
+main ol {
+margin-bottom: 1rem;
+}
+
+main ul li,
+main ol li {
+margin-bottom: 0.5rem;
+line-height: 2;
+}
+
+main ul li:last-child,
+main ol li:last-child {
+margin-bottom: 0;
+}
+
+main li > ul,
+main li > ol {
+margin-top: 0.75rem;
+margin-bottom: 0;
+}
+
+/* Book components */
+.book-cover {
+width: 100%;
+max-width: 300px;
+height: auto;
+}
+
+.book-title {
+margin-bottom: 0.25rem;
+font-size: 2rem;
+font-weight: 600;
+line-height: 1.2;
+color: var(--header-color);
+}
+
+.book-subtitle {
+margin-bottom: 1.5rem;
+font-size: 1.5rem;
+line-height: 1.3;
+}
+
+.book-details p {
+margin-bottom: 0.35rem;
+line-height: 1.5;
+}
+
+.book-details p:last-child {
+margin-bottom: 0;
+}
+
+.book-index-link {
+width: fit-content;
+margin-top: 1rem;
+margin-bottom: 0;
+padding: 0.75rem 1rem;
+border: 1px solid #cccccc;
+border-radius: 0.25rem;
+font-size: 1.2rem;
+}
+
+.book-index-link a {
+font-weight: 600;
+text-decoration: underline;
+}
+
+.book-index-link a:hover,
+.book-index-link a:focus {
+text-decoration: underline;
+}
+
+main .book-section {
+border-top: 1px solid var(--accent-color-2);
+}
+
 /* Site footer */
 footer {
 color: #333333;
