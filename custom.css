@@ -409,6 +409,39 @@ margin-bottom: 0;
 margin-bottom: 0.25rem;
 }
 
+/* Chapter components */
+.chapter-title {
+margin-top: 3rem;
+margin-bottom: 1.5rem;
+padding-top: 2rem;
+}
+
+.chapter-number,
+.chapter-name {
+display: block;
+}
+
+.chapter-number {
+margin-bottom: 0.25rem;
+font-size: 0.55em;
+letter-spacing: 0.04em;
+}
+
+/* Chapter navigation */
+main .chapter-nav {
+margin-bottom: 2rem;
+padding-bottom: 2rem;
+}
+
+main .chapter-nav li {
+margin-bottom: 0.35rem;
+line-height: 1.5;
+}
+
+main .chapter-nav li:last-child {
+margin-bottom: 0;
+}
+
 .chapter h4 {
 margin-top: 3rem;
 padding-top: 0;
