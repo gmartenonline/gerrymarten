@@ -78,6 +78,28 @@ font-size: 1.5rem;
 line-height: 1.4;
 }
 
+main ul,
+main ol {
+margin-bottom: 1rem;
+}
+
+main ul li,
+main ol li {
+margin-bottom: 0.5rem;
+line-height: 2;
+}
+
+main ul li:last-child,
+main ol li:last-child {
+margin-bottom: 0;
+}
+
+main li > ul,
+main li > ol {
+margin-top: 0.75rem;
+margin-bottom: 0;
+}
+
 /* Site header */
 header.container {
 padding: 3rem !important;
@@ -401,29 +423,6 @@ border-top: 4px dotted var(--accent-color-2);
 margin-bottom: 1.5rem;
 }
 
-/* Content lists */
-main ul,
-main ol {
-margin-bottom: 1rem;
-}
-
-main ul li,
-main ol li {
-margin-bottom: 0.5rem;
-line-height: 2;
-}
-
-main ul li:last-child,
-main ol li:last-child {
-margin-bottom: 0;
-}
-
-main li > ul,
-main li > ol {
-margin-top: 0.75rem;
-margin-bottom: 0;
-}
-
 /* Book components */
 .book-cover {
 width: 100%;
@@ -476,6 +475,44 @@ text-decoration: underline;
 
 main .book-section {
 border-top: 1px solid var(--accent-color-2);
+}
+
+/* Figures and text boxes */
+main figure img,
+main figure > .text-box-content {
+border: 1px solid var(--accent-color);
+}
+
+main figure img {
+display: block;
+width: 80%;
+max-width: 1200px;
+height: auto;
+}
+
+main figure > .text-box-content {
+padding: 1rem;
+}
+
+main figure > .text-box-content > :last-child {
+margin-bottom: 0;
+}
+
+main .figure-caption {
+font-size: 1.1rem;
+}
+
+.spanish main .chapter-figure {
+width: 60%;
+max-width: 100%;
+height: auto;
+}
+
+@media (max-width: 767px) {
+main figure img,
+.spanish main .chapter-figure {
+width: 100%;
+}
 }
 
 /* Site footer */
