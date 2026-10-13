@@ -246,7 +246,7 @@ color: var(--link-color);
   margin-left: 0.4em;
   padding: 0.15em 0.4em;
   border-radius: 3px;
-  background: #F40F02;
+  background: var(--top-brd);
   color: #fff;
   font-size: 0.7em;
   font-weight: 700;
