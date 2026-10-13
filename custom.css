@@ -241,7 +241,19 @@ color: var(--link-color);
 }
 
 /* SPECIAL CLASSES */
-
+.pdf {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  background: #222;
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  vertical-align: 0.12em;
+}
 main .intro {
 font-size: 1.1rem;
 }
