@@ -243,6 +243,7 @@ color: var(--link-color);
 /* SPECIAL CLASSES */
 .pdf {
   display: block;
+  width: max-content;
   margin-left: 0.4em;
   padding: 0.15em 0.4em;
   border-radius: 3px;
