@@ -193,6 +193,7 @@ text-align: center;
 .site-nav .nav-link:focus {
 color: var(--white-color);
 background-color: var(--black-color);
+color: var(--page-background-color);
 }
 
 .site-nav .nav-link.active,
