@@ -469,7 +469,7 @@ scroll-margin-top: 1rem;
 
 /* Chapter navigation */
 main .chapter-nav {
-margin-bottom: 1rem;
+margin-bottom: 0;
 }
 
 main .chapter-nav li {
