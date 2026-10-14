@@ -469,8 +469,7 @@ scroll-margin-top: 1rem;
 
 /* Chapter navigation */
 main .chapter-nav {
-margin-bottom: 2rem;
-padding-bottom: 2rem;
+margin-bottom: 1rem;
 }
 
 main .chapter-nav li {
