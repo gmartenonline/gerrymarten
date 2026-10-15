@@ -135,7 +135,7 @@ aspect-ratio: 1;
 background-color: var(--header-globe-color);
 -webkit-mask: url("gm-media/globe.svg") center / contain no-repeat;
 mask: url("gm-media/globe.svg") center / contain no-repeat;
-transform: translate(8%, -26%);
+transform: translate(8%, -25%);
 pointer-events: none;
 }
 
