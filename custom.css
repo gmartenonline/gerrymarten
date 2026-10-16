@@ -534,6 +534,7 @@ border-top: 1px solid var(--top-brd);
 main figure img,
 main figure > .text-box-content {
 border: 1px solid var(--accent-color);
+background-color: white;
 }
 
 main figure img {
