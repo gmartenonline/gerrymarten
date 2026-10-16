@@ -348,11 +348,6 @@ margin-bottom: 0;
 
 /* OTHER */
 
-.book-maintitle {
-font-size: 2.5rem;
-font-weight: 700;
-}
-
 /* Publications */
 .publication {
 max-width: 90%;
@@ -490,7 +485,7 @@ height: auto;
 .book-title {
 margin-bottom: 1rem;
 font-size: 2rem;
-font-weight: 700;
+font-weight: 600;
 line-height: 1.2;
 color: var(--header-color);
 }
@@ -498,7 +493,7 @@ color: var(--header-color);
 .book-subtitle {
 margin-bottom: 1.5rem;
 font-size: 1.5rem;
-font-weight: 600;
+font-weight: 500;
 line-height: 1.3;
 }
 
