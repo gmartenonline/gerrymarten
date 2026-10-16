@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&display=swap");
 :root {
 --accent-color: #562c2c;
 --top-brd: #c0c0c0;
@@ -33,6 +33,7 @@ background-color: var(--page-background-color);
 font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
 font-size: 1.1rem;
 font-weight: 400;
+font-synthesis: weight style;
 line-height: 1.7;
 text-align: left;
 -webkit-font-smoothing: antialiased;
@@ -190,7 +191,6 @@ text-align: center;
 
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus {
-color: var(--white-color);
 background-color: var(--black-color);
 color: var(--page-background-color);
 }
@@ -239,7 +239,7 @@ main a:focus {
 color: var(--link-color);
 }
 
-/* SPECIAL CLASSES */
+/* Utility classes */
 
 main .intro {
 font-size: 1.2rem;
@@ -288,7 +288,7 @@ background-color: var(--accent-hover-color);
 margin: 0;
 color: var(--accent-color);
 font-size: 1.1rem;
-font-weight: 700;
+font-weight: 600;
 }
 
 .quick-links {
@@ -345,8 +345,6 @@ background-color: var(--muted-background-color);
 main blockquote p:last-child {
 margin-bottom: 0;
 }
-
-/* OTHER */
 
 /* Publications */
 .publication {
@@ -572,19 +570,19 @@ width: 100%;
 
 /* Chapter tables */
 .chapter .table-box {
-  padding: 0;
-  border: 0;
-  background: transparent;
+padding: 0;
+border: 0;
+background: transparent;
 }
 
 .chapter .table-responsive {
-  max-width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+max-width: 100%;
+overflow-x: auto;
+-webkit-overflow-scrolling: touch;
 }
 
 .chapter .table-wide {
-  min-width: 56rem;
+min-width: 56rem;
 }
 
 /* Site footer */
