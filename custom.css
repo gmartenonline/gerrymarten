@@ -570,6 +570,23 @@ width: 100%;
 }
 }
 
+/* Chapter tables */
+.chapter .table-box {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.chapter .table-responsive {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.chapter .table-wide {
+  min-width: 56rem;
+}
+
 /* Site footer */
 footer {
 color: var(--text-color);
