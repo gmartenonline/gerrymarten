@@ -515,6 +515,16 @@ border-radius: 0.25rem;
 font-size: 1.2rem;
 }
 
+.explore {
+width: fit-content;
+margin-top: 1rem;
+margin-bottom: 0;
+padding: 0.5rem .75rem;
+border: 1px solid var(--top-brd);
+border-radius: 0.25rem;
+font-size: 1.2rem;
+}
+
 .book-index-link a {
 font-weight: 600;
 text-decoration: underline;
