@@ -19,23 +19,8 @@ gtag('config', 'G-V7XP4RWP97');
 </head>
 <body id="top">
 <div class="site-wrapper container p-0">
-<header class="container p-4">
-<p class="site-title">Gerry Marten</p>
-<p class="site-subtitle">Ecologist, educator and author</p>
-</header>
-<nav class="navbar navbar-expand-lg container site-nav" data-bs-theme="dark" aria-label="Main navigation">
-<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Open navigation"><span class="navbar-toggler-icon"></span></button>
-<div class="collapse navbar-collapse" id="main-navigation">
-<ul class="navbar-nav">
-<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="../books.html">Books</a></li>
-<li class="nav-item"><a class="nav-link" href="../publications/2010-present/index.html">Publications</a></li>
-<li class="nav-item"><a class="nav-link" href="../service.html">Service</a></li>
-<li class="nav-item"><a class="nav-link" href="../experience.html">Experience</a></li>
-<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-</ul>
-</div>
-</nav>
+{% include "header.njk" %}
+{% include "navigation.njk" %}
 <main class="container p-4">
 <h1>Symposium on American Food Resilience: Part 2</h1>
 <p>Published by the <a href="https://link.springer.com/journal/13412/volumes-and-issues/5-4">Journal of Environmental Studies and Sciences</a> (Volume 5, Issue 4) in December 2015.</p>
@@ -155,18 +140,7 @@ gtag('config', 'G-V7XP4RWP97');
 </article>
 <p><a href="#top">Back to top</a></p>
 </main>
-<footer class="container site-footer" id="contact">
-<div class="row align-items-center g-4">
-<div class="col-12 col-md-auto">
-<img src="../gm-media/gerald-marten.webp" alt="Gerald Marten" class="footer-image" width="180" height="180">
-</div>
-<div class="col-12 col-md footer-contact">
-<p>For questions or comments about this website, please contact <a href="mailto:gmartenonline@gmail.com">gmartenonline@gmail.com</a>.</p>
-<p>Find <a href="https://www.researchgate.net/profile/Gerald-Marten">Gerald Marten on ResearchGate</a>.</p>
-<p class="small mb-0"><a href="../privacy.html">Privacy</a></p>
-</div>
-</div>
-</footer>
+{% include "footer.njk" %}
 </div>
 <script src="../bootstrap.bundle.min.js"></script>
 </body>

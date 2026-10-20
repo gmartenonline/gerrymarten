@@ -20,25 +20,8 @@ gtag('config', 'G-V7XP4RWP97');
 </head>
 <body id="top" class="spanish chapter">
 <div class="site-wrapper container p-0">
-<header class="container p-4">
-<a href="../../index.html" class="text-decoration-none" aria-label="Gerry Marten, página principal">
-<p class="site-title">Gerry Marten</p>
-<p class="site-subtitle">Ecologist, educator and author</p>
-</a>
-</header>
-<nav class="navbar navbar-expand-lg container site-nav" data-bs-theme="dark" aria-label="Main navigation">
-<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Open navigation"> <span class="navbar-toggler-icon"></span> </button>
-<div class="collapse navbar-collapse" id="main-navigation">
-<ul class="navbar-nav">
-<li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
-<li class="nav-item"><a class="nav-link active" href="../../books.html" aria-current="page">Books</a></li>
-<li class="nav-item"><a class="nav-link" href="../../publications/2010-present/index.html">Publications</a></li>
-<li class="nav-item"><a class="nav-link" href="../../service.html">Service</a></li>
-<li class="nav-item"><a class="nav-link" href="../../experience.html">Experience</a></li>
-<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-</ul>
-</div>
-</nav>
+{% include "header.njk" %}
+{% include "navigation.njk" %}
 <main class="container p-4">
 <div class="row align-items-start g-4 mb-5">
 <div class="col-12 col-md-4 col-lg-2">
@@ -176,18 +159,7 @@ gtag('config', 'G-V7XP4RWP97');
 </ol>
 <p><a href="#top">Volver arriba</a></p>
 </main>
-<footer class="container site-footer" id="contact">
-<div class="row align-items-center g-4">
-<div class="col-12 col-md-auto">
-<img src="../../gm-media/gerald-marten.webp" alt="Gerald Marten" class="footer-image" width="180" height="180" loading="lazy">
-</div>
-<div class="col-12 col-md footer-contact">
-<p>For questions or comments about this website, please contact <a href="mailto:gmartenonline@gmail.com">gmartenonline@gmail.com</a>.</p>
-<p>Find <a href="https://www.researchgate.net/profile/Gerald-Marten">Gerald Marten on ResearchGate</a>.</p>
-<p class="small mb-0"><a href="../../privacy.html">Privacy</a></p>
-</div>
-</div>
-</footer>
+{% include "footer.njk" %}
 </div>
 <script src="../../bootstrap.bundle.min.js">
 </script>
