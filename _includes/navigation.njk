@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand-lg container site-nav" data-bs-theme="dark" aria-label="Main navigation">
-  <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Open navigation"><span class="navbar-toggler-icon"></span></button>
-  <div class="collapse navbar-collapse" id="main-navigation">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="/books.html">Books</a></li>
-      <li class="nav-item"><a class="nav-link" href="/publications/2010-present/index.html">Publications</a></li>
-      <li class="nav-item"><a class="nav-link" href="/service.html">Service</a></li>
-      <li class="nav-item"><a class="nav-link" href="/experience.html">Experience</a></li>
-      <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
-    </ul>
-  </div>
+<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Open navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="main-navigation">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link{% if page.url == '/' or page.url == '/index.html' %} active{% endif %}" href="/"{% if page.url == '/' or page.url == '/index.html' %} aria-current="page"{% endif %}>Home</a></li>
+<li class="nav-item"><a class="nav-link{% if page.url == '/books.html' %} active{% endif %}" href="/books.html"{% if page.url == '/books.html' %} aria-current="page"{% endif %}>Books</a></li>
+<li class="nav-item"><a class="nav-link{% if page.url contains '/publications/' %} active{% endif %}" href="/publications/2010-present/index.html"{% if page.url == '/publications/2010-present/index.html' %} aria-current="page"{% elsif page.url contains '/publications/' %} aria-current="location"{% endif %}>Publications</a></li>
+<li class="nav-item"><a class="nav-link{% if page.url == '/service.html' %} active{% endif %}" href="/service.html"{% if page.url == '/service.html' %} aria-current="page"{% endif %}>Service</a></li>
+<li class="nav-item"><a class="nav-link{% if page.url == '/experience.html' %} active{% endif %}" href="/experience.html"{% if page.url == '/experience.html' %} aria-current="page"{% endif %}>Experience</a></li>
+<li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
+</ul>
+</div>
 </nav>
