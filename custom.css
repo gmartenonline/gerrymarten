@@ -532,7 +532,7 @@ text-decoration: underline;
 main .book-section {
 margin-top: 3rem;
 margin-bottom: 1rem;
-padding-top: 1.5rem;
+padding-top: 3rem;
 border-top: 1px solid var(--top-brd);
 }
 
