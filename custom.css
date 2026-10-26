@@ -139,6 +139,20 @@ mask: url("gm-media/globe.svg") center / contain no-repeat;
 transform: translate(8%, -24.5%);
 pointer-events: none;
 }
+header::after {
+  animation: globe-fade-in 6s ease-in-out both;
+}
+
+@keyframes globe-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  header::after {
+    animation: none;
+  }
+}
 
 header > * {
 position: relative;
